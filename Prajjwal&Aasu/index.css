@@ -1,0 +1,295 @@
+/*............fort the dark mmode...........*/
+/*body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color:#141414;
+  color: white;
+}*/
+/*......ends here..............*/
+.but_1{
+	padding: 6px;
+	border-top:4px solid white;
+	border-bottom:4px solid white;
+	border-radius:6px;
+}
+.but_2{
+	padding:4px;
+	border-top:4px solid blue;
+	border-bottom:4px solid red;
+	border-radius:6px;
+
+}
+.but_3{
+	padding: 6px;
+	border-top:4px solid #141414;
+	border-bottom:4px solid #141414;
+	border-radius:6px;
+
+}
+
+
+/*...................start of animation for the top nav bar.....*/
+.navbar_index{
+	animation:animation_navbar 2s;
+}
+
+@keyframes animation_navbar {
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+
+.navd1,.navd2,.navd3,.navd4,.navd5,.navd6{
+	animation-name:nav1;
+	border-top:4px solid #141414;
+	border-bottom:4px solid #141414;
+	border-radius:6px;
+	color:white;
+}
+.navd1:hover,.navd2:hover,.navd3:hover,.navd4:hover,.navd5:hover,.navd6:hover {
+	border-top:4px solid blue;
+	border-bottom:4px solid red;
+	border-radius:6px;
+	color:white;
+}
+.nav1,.nav2,.nav3,.nav4,.nav5,.nav6{
+	animation-name:nav1;
+	border-top:4px solid white;
+	border-bottom:4px solid white;
+	border-radius:6px;
+}
+.nav1:hover,.nav2:hover,.nav3:hover,.nav4:hover,.nav5:hover,.nav5:hover,.nav6:hover{
+	border-top:4px solid blue;
+	border-bottom:4px solid red;
+	border-radius:6px;
+}
+.nav1,.navd1{
+	animation-duration:0.2s; 
+	animation-name:nav1;
+}
+
+.nav2,.navd2{
+	animation-duration:0.6s; 
+	animation-name:nav1;
+}
+.nav3,.navd3{
+	animation-duration:1s; 
+	animation-name:nav1;
+}
+.nav4,.navd4{
+	animation-duration:1.4s; 
+	animation-name:nav1;
+}
+.nav5,.navd5{
+	animation-duration:1.8s; 
+	animation-name:nav1;
+}
+.nav6,.navd6{
+	animation-duration:2.2s; 
+	animation-name:nav1;
+}
+.nav7,.navd7{
+	animation-duration:2.6s; 
+	animation-name:nav1;
+
+}
+@keyframes nav1{
+	0%{opacity:0;transform:scale(0);}
+	25%{opacity:0;transform:scale(0.25);}
+	50%{opacity:0;transform:scale(0.5);}
+	75%{opacity:0;transform:scale(0.75);}
+	100%{opacity:1;transform:scale(1);}
+}
+/*..............end of animation for the top buttons......*/
+
+
+.nav7:hover{
+	transform:scale(1.1);
+}
+
+/*................animating bannerimage of utec.................*/
+ .banner_utec{
+ 	animation:banner_utec 2.6s;
+
+ }
+ @keyframes banner_utec {
+ 	0%{opacity:0;transform:scale(0);}
+	25%{opacity:0;transform:scale(0.25);}
+	50%{opacity:0;transform:scale(0.5);}
+	75%{opacity:0;transform:scale(0.75);}
+	100%{opacity:1;transform:scale(1);}
+ }
+ .banner_utec:hover{
+ 	opacity:0.9;
+ }
+ /*...end....*/
+
+
+
+/*.................keshav sir ko animation with paragraph....*/
+.keshav_datt1{
+	animation:keshavsir 2.8s;
+}
+.keshav_datt2{
+	animation:keshavsir 3s;
+}
+@keyframes keshavsir{
+	0%{opacity:0;transform:scale(0);}
+	25%{opacity:0;transform:scale(0.25);}
+	50%{opacity:0;transform:scale(0.5);}
+	75%{opacity:0;transform:scale(0.75);}
+	100%{opacity:1;transform:scale(1);}	
+}
+
+.reveal{
+	opacity: 0;
+}
+.reveal.active{
+	opacity:1; 
+	animation:revealsir 1s;
+}
+@keyframes revealsir{
+	0%{opacity:0;transform:scale(0);}
+	100%{opacity:1;transform:scale(1);}	
+}
+
+/*for the card of the teacher on hovering translating*/
+.card_teachers{
+}
+.card_teachers:hover{
+	animation:sir1 1s;
+	background-color:white;
+	border-radius:10px;
+}
+@keyframes sir1 {
+	0%{opacity:0.3;background-color:red;}
+	100%{opacity:1;background-color:white;}
+}
+
+/*...end...*/
+.link_design{
+	padding:6px;
+	border-radius:50%;
+	background-color:#2c3e50;
+	color:white; 
+}
+.link_design:hover{
+	background-color:#3498db;
+	color:yellow;
+	padding:6px;
+	border-radius:50%;
+	animation:animatingLink 4s infinite;
+}
+
+@keyframes animatingLink {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.tryingHeight{
+	background-color:lightgrey;
+	color:blue;
+	border-radius:12px;
+	height:33rem;
+
+}
+
+.login_info{
+	padding:10px;
+	border-radius: 10px;
+	animation:colorchangefordiv 20s infinite;
+}
+
+@keyframes colorchangefordiv{
+	0%{border:4px solid violet;}
+	10%{border:4px solid indigo;}
+	20%{border:4px solid blue;}
+	30%{border:4px solid green;}
+	40%{border:4px solid yellow;}
+	50%{border:4px solid orange;}
+	60%{border:4px solid red;}
+	70%{border:4px solid violet;}
+	80%{border:4px solid gold;}
+	90%{border:4px solid yellow;}
+	100%{border:4px solid green;}
+}
+
+.login_form_light{
+	animation:colorchangefordiv 8s infinite;
+}
+
+
+/*animating the notice page*/
+
+@keyframes noticepage{
+	0%{opacity:0;transform:scale(0);}
+	25%{opacity:0;transform:scale(0.25);}
+	50%{opacity:0;transform:scale(0.5);}
+	75%{opacity:0;transform:scale(0.75);}
+	100%{opacity:1;transform:scale(1);}	
+}
+.noticeanimate{
+	animation:noticepage 1.5s;
+
+}
+.noticeanimate1{
+	animation:noticepage 2.7s;
+}
+.noticeanimate2{
+	animation:noticepage 3s;
+}
+
+/*end of animation of notice page*/
+
+/*animating courses pages*/
+.coursesanimate{
+	animation:noticepage 2s; 
+}
+.coursesanimate1{
+	animation:noticepage 2.5s;
+}
+.coursesanimate2{
+	animation:noticepage 2.8s;
+}
+.coursesanimate3{
+	animation:noticepage 3.2s;
+}
+.coursesanimate4{
+	animation:noticepage 3.4s;
+}
+/*.............end of animation........*/
+/*animating research and publication page*/
+
+.researchanimate{
+	animation:noticepage 1.5s;
+}
+.researchanimate1{
+	animation:noticepage 2s;
+}
+.researchanimate2{
+	animation:noticepage 2.5s;
+}
+/*...................end/...................*/
+
+/*animating gallery part*/
+.gallerypart{
+	animation:noticepage 1.5s;
+}
+/*end of animating gallery part*/
+
+.contactanimate{
+	animation:noticepage 2s;
+}
+.contactanimate1{
+	animation:noticepage 3s;
+}
